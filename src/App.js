@@ -4,15 +4,27 @@ import React, {useEffect, useState} from 'react'
 import Top from './Top';
 import Portfolios from './Portfolios';
 import Footer from './Footer';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Html from './Html';
 
 function App() {
   return (
     <React.Fragment>
       <Top />
-      <Portfolios />
+      <Router>
+        <Switch>
+          <Route path="/html">      
+            <Html />
+          </Route>
+          <Route path="/">      
+            <Portfolios />
+          </Route>
+        </Switch>
+      </Router>
       <Footer />
     </React.Fragment>
   );
 }
+
 
 export default App;
