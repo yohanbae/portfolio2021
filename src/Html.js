@@ -24,7 +24,7 @@ import { SiRedux } from "react-icons/si";
 
 import burger from './assets/burger.jpg';
 import yoga from './assets/yoga.jpg';
-import hiking from './assets/hiking.jpg';
+import foodie from './assets/foodie.jpg';
 import {useHistory} from 'react-router-dom'
 
 const Html = () => {
@@ -36,7 +36,7 @@ const Html = () => {
 
   const linkUp = () => {
     router.push('/')
-    window.scrollTo(0, 0)    
+    window.scrollTo(0, 700)    
   }
   return(
     <div className="portfolios-wrap">
@@ -64,7 +64,7 @@ const Html = () => {
         <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
           ORIGINAL PSD
         </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://moviesns.netlify.app")}>
+        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
           VIEW
         </Button>
       </CardActions>
@@ -97,7 +97,7 @@ const Html = () => {
         <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/social-media-templates-with-yoga-theme_6951540.htm#&position=20")}>
           ORIGINAL PSD
         </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://hanimall.netlify.app")}>
+        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
           VIEW
         </Button>
       </CardActions>
@@ -107,12 +107,12 @@ const Html = () => {
       <CardActionArea>
         <CardMedia
           className="media"
-          image={hiking}
+          image={foodie}
           title="Portofolios ecommerce"
         />
         <CardContent>
           <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-            HIKING CONCEPT
+            Delicious Pasta
           </Typography>
 
           <div style={{marginTop:'20px'}}>
@@ -123,10 +123,10 @@ const Html = () => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/hiking-concept-web-template_7183405.htm#&position=2")}>
+        <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/web-template-restaurant_7011673.htm#&position=5")}>
           ORIGINAL PSD
         </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://sweb.netlify.app/")}>
+        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
           VIEW
         </Button>
       </CardActions>
