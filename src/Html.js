@@ -25,6 +25,9 @@ import { SiRedux } from "react-icons/si";
 import burger from './assets/burger.jpg';
 import yoga from './assets/yoga.jpg';
 import foodie from './assets/foodie.jpg';
+import izone from './assets/izone.png';
+import fromis from './assets/fromis.png';
+
 import {useHistory} from 'react-router-dom'
 
 const Html = () => {
@@ -41,9 +44,77 @@ const Html = () => {
   return(
     <div className="portfolios-wrap">
       <div className="thewrap">
-      <div className="thetitle">PSD to HTML Demonstration</div>
+      <div className="thetitle">UI Design & Web Development</div>
+
       <Card className="thecard">
-      <CardActionArea>
+      
+      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+        <CardMedia
+          className="media"
+          image={izone}          
+          title="Portofolios SNS"
+        />
+        <CardContent>
+          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+            IZ*ONE
+          </Typography>
+          <div style={{marginTop:'20px'}}>
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>    
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>    
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
+
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+          </div>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        {/* <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
+          ORIGINAL PSD
+        </Button> */}
+        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+          VIEW
+        </Button>
+      </CardActions>
+    </Card>
+
+    <Card className="thecard">
+
+    <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/from/")}>
+      <CardMedia
+        className="media"
+        image={fromis}          
+        title="Portofolios SNS"
+      />
+      <CardContent>
+        <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+          Fromisnine
+        </Typography>
+        <div style={{marginTop:'20px'}}>
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>    
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>        
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
+          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+        </div>
+      </CardContent>
+    </CardActionArea>
+    <CardActions>
+      {/* <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
+        ORIGINAL PSD
+      </Button> */}
+      <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/from/")}>
+        VIEW
+      </Button>
+    </CardActions>
+    </Card>
+
+
+    <div className="thetitle">PSD to HTML Demonstration</div>
+
+      <Card className="thecard">
+
+      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
         <CardMedia
           className="media"
           image={burger}
@@ -74,7 +145,7 @@ const Html = () => {
 
 
     <Card className="thecard">
-      <CardActionArea>
+      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
         <CardMedia
           className="media"
           image={yoga}
@@ -104,7 +175,7 @@ const Html = () => {
     </Card>
 
     <Card className="thecard">
-      <CardActionArea>
+      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
         <CardMedia
           className="media"
           image={foodie}
