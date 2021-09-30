@@ -8,11 +8,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import sns from './assets/sns.jpg'
-import ecommerce from './assets/ecommerce.jpg'
-import promise from './assets/promise-mock.png'
-import smileland from './assets/smileland-mock.png'
-import Divider from '@material-ui/core/Divider';
 
 import Chip from '@material-ui/core/Chip';
 import { DiReact, DiPhotoshop, DiPhp, DiWordpress, DiNodejsSmall, DiGithubBadge, DiHeroku, DiFirebase, DiMongodb, DiSass,DiPython,DiAws  } from "react-icons/di";
@@ -21,6 +16,7 @@ import { IoLogoVue } from "react-icons/io5";
 
 import { FaStripe } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
+
 
 import burger from './assets/burger.jpg';
 import yoga from './assets/yoga.jpg';
@@ -47,38 +43,6 @@ const Html = () => {
 
       <div className="thetitle">PSD to HTML Demonstration</div>
 
-        <Card className="thecard">
-
-        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
-          <CardMedia
-            className="media"
-            image={burger}
-            title="Portofolios SNS"
-          />
-          <CardContent>
-            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-              BURGER WEEK
-            </Typography>
-            <div style={{marginTop:'20px'}}>
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>        
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
-            </div>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
-            ORIGINAL PSD
-          </Button>
-          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
-            VIEW
-          </Button>
-        </CardActions>
-
-        
-      </Card>
-
-
       <Card className="thecard">
         <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
           <CardMedia
@@ -104,6 +68,34 @@ const Html = () => {
             ORIGINAL PSD
           </Button>
           <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
+            VIEW
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className="thecard">
+        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
+          <CardMedia
+            className="media"
+            image={burger}
+            title="Portofolios SNS"
+          />
+          <CardContent>
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+              BURGER WEEK
+            </Typography>
+            <div style={{marginTop:'20px'}}>
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>        
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+            </div>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
+            ORIGINAL PSD
+          </Button>
+          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
             VIEW
           </Button>
         </CardActions>

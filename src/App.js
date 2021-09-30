@@ -6,6 +6,7 @@ import Portfolios from './Portfolios';
 import Footer from './Footer';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Html from './Html';
+import Email from './Email';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Switch>
           <Route path="/html">      
             <Html />
+          </Route>
+          <Route path="/email">      
+            <Email />
           </Route>
           <Route path="/">      
             <Portfolios />
