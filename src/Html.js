@@ -44,26 +44,151 @@ const Html = () => {
   return(
     <div className="portfolios-wrap">
       <div className="thewrap">
+
+      <div className="thetitle">PSD to HTML Demonstration</div>
+
+        <Card className="thecard">
+
+        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
+          <CardMedia
+            className="media"
+            image={burger}
+            title="Portofolios SNS"
+          />
+          <CardContent>
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+              BURGER WEEK
+            </Typography>
+            <div style={{marginTop:'20px'}}>
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>        
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+            </div>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
+            ORIGINAL PSD
+          </Button>
+          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
+            VIEW
+          </Button>
+        </CardActions>
+
+        
+      </Card>
+
+
+      <Card className="thecard">
+        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
+          <CardMedia
+            className="media"
+            image={yoga}
+            title="Portofolios ecommerce"
+          />
+          <CardContent>
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+              YOGA OM
+            </Typography>
+
+            <div style={{marginTop:'20px'}}>
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="BOOTSTRAP"/>                  
+            </div>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/social-media-templates-with-yoga-theme_6951540.htm#&position=20")}>
+            ORIGINAL PSD
+          </Button>
+          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
+            VIEW
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className="thecard">
+        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
+          <CardMedia
+            className="media"
+            image={foodie}
+            title="Portofolios ecommerce"
+          />
+          <CardContent>
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+              Delicious Pasta
+            </Typography>
+
+            <div style={{marginTop:'20px'}}>
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
+            </div>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/web-template-restaurant_7011673.htm#&position=5")}>
+            ORIGINAL PSD
+          </Button>
+          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
+            VIEW
+          </Button>
+        </CardActions>
+      </Card>
+
       <div className="thetitle">UI Design & Web Development</div>
 
       <Card className="thecard">
       
-      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+        <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+          <CardMedia
+            className="media"
+            image={izone}          
+            title="Portofolios SNS"
+          />
+          <CardContent>
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+              IZ*ONE
+            </Typography>
+            <div style={{marginTop:'20px'}}>
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>    
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>    
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
+
+              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+            </div>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          {/* <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
+            ORIGINAL PSD
+          </Button> */}
+          <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+            VIEW
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className="thecard">
+
+      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/from/")}>
         <CardMedia
           className="media"
-          image={izone}          
+          image={fromis}          
           title="Portofolios SNS"
         />
         <CardContent>
           <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-            IZ*ONE
+            Fromisnine
           </Typography>
           <div style={{marginTop:'20px'}}>
             <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
             <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>    
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>    
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
-
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>        
+            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
             <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
           </div>
         </CardContent>
@@ -72,137 +197,12 @@ const Html = () => {
         {/* <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
           ORIGINAL PSD
         </Button> */}
-        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/izone/")}>
+        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/from/")}>
           VIEW
         </Button>
       </CardActions>
-    </Card>
+      </Card>
 
-    <Card className="thecard">
-
-    <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/from/")}>
-      <CardMedia
-        className="media"
-        image={fromis}          
-        title="Portofolios SNS"
-      />
-      <CardContent>
-        <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-          Fromisnine
-        </Typography>
-        <div style={{marginTop:'20px'}}>
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>    
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="jQuery"/>        
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="Photoshop"/>        
-          <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
-        </div>
-      </CardContent>
-    </CardActionArea>
-    <CardActions>
-      {/* <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
-        ORIGINAL PSD
-      </Button> */}
-      <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/from/")}>
-        VIEW
-      </Button>
-    </CardActions>
-    </Card>
-
-
-    <div className="thetitle">PSD to HTML Demonstration</div>
-
-      <Card className="thecard">
-
-      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
-        <CardMedia
-          className="media"
-          image={burger}
-          title="Portofolios SNS"
-        />
-        <CardContent>
-          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-            BURGER WEEK
-          </Typography>
-          <div style={{marginTop:'20px'}}>
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>        
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
-          </div>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/american-food-website-app-template_7335301.htm#&position=1")}>
-          ORIGINAL PSD
-        </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-burger/")}>
-          VIEW
-        </Button>
-      </CardActions>
-
-      
-    </Card>
-
-
-    <Card className="thecard">
-      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
-        <CardMedia
-          className="media"
-          image={yoga}
-          title="Portofolios ecommerce"
-        />
-        <CardContent>
-          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-            YOGA OM
-          </Typography>
-
-          <div style={{marginTop:'20px'}}>
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="BOOTSTRAP"/>                  
-          </div>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/social-media-templates-with-yoga-theme_6951540.htm#&position=20")}>
-          ORIGINAL PSD
-        </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-yoga/")}>
-          VIEW
-        </Button>
-      </CardActions>
-    </Card>
-
-    <Card className="thecard">
-      <CardActionArea onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
-        <CardMedia
-          className="media"
-          image={foodie}
-          title="Portofolios ecommerce"
-        />
-        <CardContent>
-          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
-            Delicious Pasta
-          </Typography>
-
-          <div style={{marginTop:'20px'}}>
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
-            <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
-          </div>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>onLink("https://www.freepik.com/free-psd/web-template-restaurant_7011673.htm#&position=5")}>
-          ORIGINAL PSD
-        </Button>
-        <Button size="small" color="primary" onClick={()=>onLink("https://yohanbae.github.io/html-rest/")}>
-          VIEW
-        </Button>
-      </CardActions>
-    </Card>
-        
       <Button className="thebutton" style={{textDecoration:'underline', marginBottom:'30px'}} onClick={()=> linkUp()}>Click to see my full skills</Button>
 
       </div>

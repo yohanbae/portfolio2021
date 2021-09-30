@@ -8,7 +8,19 @@
   font-family: 'Quicksand', sans-serif;
 
   .the-wrap{
-    width:500px;
+    width:calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(min-width:400px) {
+      width:calc(400px - 20px);
+    }
+
+    @media(min-width:576px) {
+      width:500px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
     .title-wrap {
       padding:20px 0;
       display:grid;
@@ -27,8 +39,19 @@
   }
 
   .the-skills {
-    width:500px;
     margin-top:40px;
+    width:calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(min-width:400px) {
+      width:calc(400px - 20px);
+    }
+
+    @media(min-width:576px) {
+      width:500px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
   }
 
 }
@@ -41,7 +64,18 @@
   margin-top:100px;
   margin-bottom:0px;  
   .thewrap {
-    width:500px;
+    width:calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(min-width:400px) {
+      width:calc(400px - 20px);
+    }
+
+    @media(min-width:576px) {
+      width:500px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
     
     .thetitle {
       font-size: 25px;
@@ -70,7 +104,18 @@
   display: grid;
   justify-content: center;
   .footer-middle {
-    width:500px;
+    width:calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(min-width:400px) {
+      width:calc(400px - 20px);
+    }
+
+    @media(min-width:576px) {
+      width:500px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
   }
 
 }
