@@ -51,15 +51,15 @@ const Html = () => {
             title="Portofolios ecommerce"
           />
           <CardContent>
-            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} className="thetitle" gutterBottom variant="h5" component="h2">
               YOGA OM
             </Typography>
 
             <div style={{marginTop:'20px'}}>
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="BOOTSTRAP"/>                  
+              <Chip variant="outlined" size="small" className="chip-style" label="HTML5"/>                  
+              <Chip variant="outlined" size="small" className="chip-style" label="SASS"/>                  
+              <Chip variant="outlined" size="small" className="chip-style" label="RESPONSIVE WEB"/>     
+              <Chip variant="outlined" size="small" className="chip-style" label="BOOTSTRAP"/>                  
             </div>
           </CardContent>
         </CardActionArea>
@@ -81,13 +81,13 @@ const Html = () => {
             title="Portofolios SNS"
           />
           <CardContent>
-            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} className="thetitle" gutterBottom variant="h5" component="h2">
               BURGER WEEK
             </Typography>
             <div style={{marginTop:'20px'}}>
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML"/>        
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>        
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>        
+              <Chip variant="outlined" size="small" className="chip-style" label="HTML"/>        
+              <Chip variant="outlined" size="small" className="chip-style" label="SASS"/>        
+              <Chip variant="outlined" size="small" className="chip-style" label="RESPONSIVE WEB"/>        
             </div>
           </CardContent>
         </CardActionArea>
@@ -109,14 +109,14 @@ const Html = () => {
             title="Portofolios ecommerce"
           />
           <CardContent>
-            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} className="thetitle" gutterBottom variant="h5" component="h2">
               Delicious Pasta
             </Typography>
 
             <div style={{marginTop:'20px'}}>
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="HTML5"/>                  
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="SASS"/>                  
-              <Chip variant="outlined" size="small" style={{marginRight:'10px', marginBottom:'5px'}} label="RESPONSIVE WEB"/>     
+              <Chip variant="outlined" size="small" className="chip-style" label="HTML5"/>                  
+              <Chip variant="outlined" size="small" className="chip-style" label="SASS"/>                  
+              <Chip variant="outlined" size="small" className="chip-style" label="RESPONSIVE WEB"/>     
             </div>
           </CardContent>
         </CardActionArea>

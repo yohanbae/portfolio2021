@@ -145,7 +145,7 @@
     }
 
     .thetitle {
-      font-size: 15px;
+      font-size: 25px;
       margin-bottom:15px;
       @media(min-width:992px) {
       }
@@ -157,14 +157,8 @@
       cursor: unset;
     }
     .media {
-      height:160px;
+      height:240px;
       object-fit: 'cover';
-      @media(min-width:992px) {
-        // width:400px;
-      }
-      @media(min-width:1200px) {
-        height:240px;
-      }    
     }
   }
 }
