@@ -141,7 +141,7 @@ const Html = () => {
             title="Portofolios SNS"
           />
           <CardContent>
-            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+            <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} className="thetitle" gutterBottom variant="h5" component="h2">
               IZ*ONE
             </Typography>
             <div style={{marginTop:'20px'}}>
@@ -173,7 +173,7 @@ const Html = () => {
           title="Portofolios SNS"
         />
         <CardContent>
-          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} gutterBottom variant="h5" component="h2">
+          <Typography style={{fontFamily:'Quicksand', fontWeight:'600'}} className="thetitle" gutterBottom variant="h5" component="h2">
             Fromisnine
           </Typography>
           <div style={{marginTop:'20px'}}>
